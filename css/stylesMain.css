@@ -14,7 +14,7 @@ html {
 }
 
 :root {
-    --menuHeight: 30vh;
+    --menuHeight: 20rem;
     --section-padding: clamp(1rem, 20vw, 10rem)
 }
 
@@ -232,6 +232,8 @@ html {
 
 
 #menu {
+    background-color: #353535;
+
     position: absolute;
     bottom: 0;
     z-index: 1;
@@ -298,7 +300,6 @@ html {
     }
 
     #menu {
-        height: 15rem;
 
         & ul {
             flex-direction: column;
