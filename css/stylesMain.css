@@ -65,12 +65,12 @@ html {
 }
 
 .scrollLeft {
-    animation: 60s bgScrollLeft infinite linear;
+    animation: 30s bgScrollLeft infinite linear;
 }
 
 
 .scrollRight {
-    animation: 60s bgScrollRight infinite linear;
+    animation: 30s bgScrollRight infinite linear;
 }
 
 
