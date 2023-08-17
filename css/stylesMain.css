@@ -232,8 +232,6 @@ html {
 
 
 #menu {
-    background-color: #353535;
-
     position: absolute;
     bottom: 0;
     z-index: 1;
@@ -300,7 +298,7 @@ html {
     }
 
     #menu {
-        
+        height: 15rem;
 
         & ul {
             flex-direction: column;
