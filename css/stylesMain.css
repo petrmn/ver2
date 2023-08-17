@@ -155,7 +155,8 @@ html {
 
 .bgGallery {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     width: 200vw;
     background-color: #000;
     display: grid;
@@ -271,11 +272,6 @@ html {
         font-weight: 300;
         color: #ffffff;
     }
-
-    &:hover {
-        transform: translateY(-5px);
-        background-color: #3f3f3f;
-    }
 }
 
 
@@ -286,7 +282,6 @@ html {
 
 
 @media(max-width: 700px) {
-    
 
     .scrollLeft {
         animation: none;
@@ -306,6 +301,8 @@ html {
     }
 
     #menu {
+        
+
         & ul {
             flex-direction: column;
             gap: 1.5rem;
@@ -747,6 +744,12 @@ footer {
 }
 
 @media (hover: hover){
+    .defbutton:hover {
+        transform: translateY(-5px);
+        background-color: #3f3f3f;
+    }
+    
+    
     #menuTop ul a:hover {
         transform: translateY(-2px);
 
@@ -783,6 +786,9 @@ footer {
 }
 
 @media(max-width: 700px) {
+    
+    
+    
     #header {
         position: fixed;
         width: 100%;
